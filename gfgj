@@ -1,0 +1,50 @@
+[33mcommit 63c29a83c7faa78840fd506b0758a07ae6f03a81[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Des <dessert73@mail.ru>
+Date:   Tue May 17 21:00:11 2022 +0400
+
+    zero
+
+ delete mode 100644 descriptions.c
+ delete mode 100644 functions.c
+ delete mode 100644 main.py
+
+[33mcommit a06688072f71659990064c7906a3493a6adccf35[m
+Author: Des <dessert73@mail.ru>
+Date:   Tue May 17 07:23:52 2022 +0400
+
+    init
+
+ create mode 100644 descriptions.c
+ create mode 100644 functions.c
+ create mode 100644 main.py
+
+[33mcommit 024bc9dbd7b9c2c064f2128f44fefabc1511f0be[m
+Author: Kakarevich <100787914+Kakarevich@users.noreply.github.com>
+Date:   Tue May 17 06:42:35 2022 +0400
+
+    Delete Test.delete.txt
+
+ delete mode 100644 Test.delete.txt
+
+[33mcommit aa7ed0854c5f3cc5330591a64fbed306ae8bf884[m
+Author: Des <dessert73@mail.ru>
+Date:   Tue May 17 06:39:52 2022 +0400
+
+    test, delete
+
+ create mode 100644 Test.delete.txt
+
+[33mcommit ff7decac6346261690796054662b87066697bbb7[m
+Author: Des <dessert73@mail.ru>
+Date:   Tue May 17 06:29:00 2022 +0400
+
+    README.md
+
+
+[33mcommit 16a13c12edaad0584a99e5ffdbdf61b5a2f6ca34[m
+Author: Kakarevich <100787914+Kakarevich@users.noreply.github.com>
+Date:   Wed Mar 2 20:01:49 2022 +0400
+
+    Create README.md
+
+ create mode 100644 README.md
