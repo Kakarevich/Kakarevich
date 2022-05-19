@@ -9,17 +9,16 @@ Kakarevich/Kakarevich is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 
-int main(){
-  int a = 100;
-  int b = 0;
-  while(true) {
-    if (a > b) {
-      b += 2;
+
+bool isEmpty(){  
+  if(this->data == 0)
+    return true;
+  bool result = true;
+  for (int i = 0; i < 10; i++) {
+    if(readFromFile("input.txt", i)) {
+      result = indexes[i].matched;
     }
-    else {
-      a -= 3;
-    }
+    indexes[i].setMatched(true);
   }
-  std::cout << "a = ", a, " b = ", b;
-  return 0;
+  return result;
 }
