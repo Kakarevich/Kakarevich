@@ -4,12 +4,22 @@
 <head>
 	<meta html-equiv="Content-Type" content="text/html; charset=utf8">
 	<title>Обратная связь</title>
+	<!link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style>
+		h1 {color:,blue;}
+
+		p b {color: red;}
+	</style>
 </head>
 <body>
+	<h1>Обратная связь</h1>
 	<form action="contact.php" method="post">
 	<p><input type="text" name="fio" value=""></p>
 	<p><textarea name="massage" rows=10 cols=40></textarea></p>
 	<p><input type="submit" value="Отправитель"></p>	
+
+	<p>Примет текста с <b>вложенным</b> тегом b</p>
+	<div>Приер 2 текста с <b>вложенным</b> тегом b</div>
 	</form>
 
 </body>

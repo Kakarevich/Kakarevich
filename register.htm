@@ -3,6 +3,7 @@
 <html>
 <head>
 	<meta html-equiv="Content-Type" content="text/html; charset=utf8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<title>Форма регистрации</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
 	<form action="register.php" method="post">
 	<input type="hidden" name="id" value="123456">
 
-	<table border="0">
+	<table border="1">
 		<tr><td>Имя: </td><td><input type="text" name="fio" value=""></td></tr>
 		<tr><td>Пол: </td><td><input type="radio" name="sex" value="1" checked>M<input type="radio" name="sex" value="2" checked> Ж</td></tr>
 		<tr><td>Город:</td><td>
@@ -30,6 +31,57 @@
 		<tr><td colspan="2"><p><input type="checkbox" name="agree">Регистрируясь, Вы принимаете пользовательское соглашение</p></td></tr>
 		<tr><td><input type="submit" value="Зарегистрироваться"></td><td><input type="reset" value="Очистить форму"></td></tr>
 	</table>
+
+	<div id="reg_form">
+	<h1>Форма регистрации</h1>
+
+	<form action="register.php" method="post">
+	<input type="hidden" name="id" value="123456">
+
+	<ul class="reg_list">
+	<li>
+		<div class="reg_title">Имя:</div>
+		<input type="text" name="fio" value="">
+	</li>
+
+	<li>
+		<div class="reg_title">Пол:</div>
+		<input type="radio" name="sex" value="1" checked>M
+		<input type="radio" name="sex" value="2" checked> Ж
+	</li>
+	
+	<li>
+		<div class="reg_title">Город:</div>
+			<select name="sity">
+			<option value="1">Москва</option>
+			<option value="2">Санкт-Петербург</option>
+			<option value="3">Казань</option>
+			<option value="4">Уфа</option>
+			<option value="5">Самара</option>
+			<option value="6">Томск</option></div>
+			</select>
+	</li>
+	
+	<li>		
+		<div class="reg_title">Пароль: </div>
+		<input type="password" name="pass" value="">
+	</li>
+
+	<li>
+		<textarea name="descr" cols=40 rows=5>Напишите что-то о себе</textarea>
+	</li>
+	<li>
+		<input type="checkbox" name="agree">
+		<span class="reg_agree">Регистрируясь, Вы принимаете пользовательское соглашение</span>
+	</li>
+	</ul>
+
+	<div id="reg_control">
+		<div style="float:left;"><input class="reg_button" type="submit" value="Зарегистрироваться"></div>
+		<div style="float:left;"><input class="reg_button" type="reset" value="Очистить форму"></div>
+	</div>
+</div>
+
 	</form>
 
 </body>

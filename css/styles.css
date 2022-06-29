@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Tahoma;
+	color: #444;
+}
+
+h1{
+	font-size: 20px;
+	margin: 0 0 20px 0;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#reg_form{
+	width: 350px;
+	margin: 20px auto 0 auto;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 5px 5px 10px #aaa;
+}
+
+.reg_list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.reg_list li{
+	margin: 10px 0 10px 0;
+}
