@@ -12,7 +12,7 @@ h1{
 	border-bottom: 1px solid #ccc;
 }
 
-#reg_form{
+#reg_form{ !выделяет в определённый блок
 	width: 350px;
 	margin: 20px auto 0 auto;
 	padding: 10px;
@@ -20,12 +20,59 @@ h1{
 	box-shadow: 5px 5px 10px #aaa;
 }
 
-.reg_list{
+ul.reg_list{ ! список не будет иметь маркеров, ни отступов
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-.reg_list li{
+ul.reg_list li{ ! отступы между строками
 	margin: 10px 0 10px 0;
+}
+
+.reg_title{ ! позволяеи блок ДИВ расположить на одной строчке
+	display: inline-block;
+	min-width: 100px;
+}
+
+input.reg_input{ ! размер поля ввода, размер текста и отсутсвие границ поля
+	width: 230px;
+	border: none;
+	border-bottom: 1px solid #aaa;
+	font-size: 16px;
+}
+
+input.reg_input:focus { !позволят подсвечивать поле вводы
+	border-bottom: 1px solid #FFDB4D;
+}
+
+.reg_select{ ! изменили цвет выбора города и размер строки
+	width: 230px;
+	font-size: 14px;
+	background: #FFF9B5;
+}
+
+.reg_agree{ !для изменения шрифта подписи
+	font-size: 12px;
+}
+
+textarea{  !это для того чтобы обозначить размер поля для ввода и цвет
+	font-size: 16px;
+	color: blueviolet;
+	max-width: 330px;
+	max-height: 100px;
+}
+
+#reg_control{ !это для того, чтобы кнопки не выходили за края
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+input.reg_button{ ! задаем стиль кнопкам
+	background: #FFDB4D;
+	font-size: 16px;
+	color: #333;
+	padding: 5px;
+	border: 1px solid #FFF11;
+	border-radius: 3px;
 }
