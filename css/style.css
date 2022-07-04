@@ -5,6 +5,7 @@
 
 html, body {
   height: 100%;
+  background: #fff url('../picture/back1.gif') no-repeat 50% 0 fixed;
 }
 
 .wrapper {
@@ -19,8 +20,30 @@ html, body {
   box-sizing: border-box;
 }
 
+.header {
+  max-width: 700px;
+  height: 300px;
+  background: #fff url('../picture/header.jpg') no-repeat center;
+}
+
+.header_text{
+  padding-top: 60px;
+  padding-left: 100px;
+  width: 400px;
+  font-family: Monotype Corsiva, Tahoma, Arial;
+  font-size: 38px;
+}
+
 .footer {
   height: 90px;
   margin-top: -90px;
   box-sizing: border-box;
+
+  background: rgba(204, 204, 204, 0.43);
+  border-radius: 0 0 20px 20px;
+  padding: 5px;
+  color: #777;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Arial, Helvetica, Sans-serif;
+  text-align: center;
 }
