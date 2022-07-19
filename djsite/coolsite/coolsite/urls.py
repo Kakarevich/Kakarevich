@@ -19,5 +19,7 @@ from women.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('women/', include('women.urls')), #http://127.0.0.1:8000/women/
+    path('', include('women.urls')), #http://127.0.0.1:8000/women/
 ]
+
+handler404 = pageNotFound  # Определили спец обработчика страницы 404
