@@ -7,3 +7,6 @@ class Women(models.Model):
     time_create = models.DateTimeField(auto_now_add=True) # поле с указанием времени создания статьи
     time_update = models.DateTimeField(auto_now=True) # поле с указанием времени редактирования статьи
     is_published = models.BooleanField(default=True) # булевое значение
+
+    def __str__(self):
+        return self.title
