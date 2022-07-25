@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Women(models.Model):
     title = models.CharField(max_length=255) # класс CharField определяет макс длину текстового поля
     content = models.TextField(blank=True) # blank=True позволяет поле оставить пустым
